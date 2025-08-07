@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:"Glass Antiqua", cursive;
+    min-height: 100vh;
+    background-color: teal;
+    color:rgb(222, 145, 29);
+    font-size: 15px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+button a{
+    text-decoration: none;
+
+}
+
+
+.contient_head{
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: 20px;
+    background-color: linen;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+#boite_presentation{
+    width: 350px;
+    height: 200px;
+    border: 3px solid cadetblue;
+    margin: 20px;
+    background-color: linen;
+}
+
+
+.formulaire-conteneur{
+            max-width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: linen;
+            border: 3px solid cadetblue;
+            border-radius: 8px;
+}
+
+
+ .bouton_ins{
+            width: 100%;
+            padding: 10px;
+            background-color: teal;
+            color: linen;
+            border: none;
+            border-radius: 4px;
+            font-family: "Glass Antiqua", cursive;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+    }
+        
+.bouton-ins:hover {
+            background-color: cadetblue;
+}
+        
+.message {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            text-align: center;
+}
+
+.formulaire-groupe {
+            margin-bottom: 15px;
+ }
+        
+.formulaire-groupe label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: rgb(222, 145, 29);
+}
+        
+.formulaire-groupe input {
+            width: 100%;
+            padding: 10px;
+            border: 3px solid cadetblue;
+            border-radius: 4px;
+            font-family: "Glass Antiqua", cursive;
+            font-size: 15px;
+}
+        
+.formulaire-groupe input:focus {
+            outline: none;
+            border-color: teal;
+}
+
+
+
+table,th,td {
+         border: 2px solid black;
+         padding: 10px;
+}
+
+
